@@ -28,7 +28,7 @@ const RandomQuoteMachine = () => {
   };
 
   return (
-    <div id="wrapper">
+    <div className="wrapper-quote">
       <div id="quote-box">
         <div className="quote-text">
           <FontAwesomeIcon className="quote-icon" icon={faQuoteLeft} />

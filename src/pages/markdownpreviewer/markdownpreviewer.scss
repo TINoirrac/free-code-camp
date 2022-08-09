@@ -1,0 +1,41 @@
+.wrapper{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.editorWrap, .previewWrap{
+    margin-left: 2px;
+    margin-top: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    height: 100vh;
+    padding: 5px 5px;
+}
+
+.editorWrap{
+    position: relative;
+    border-right: 10px solid #eee;
+}
+
+#editor{
+    font-style: 14px;
+    min-width: 100%;
+    resize: none;
+    border:transparent;
+    height: 98%;
+}
+
+.previewWrap{
+    padding-left: 10px;
+}
+
+#preview{
+    overflow-y: auto;
+    height: 100%;
+}
